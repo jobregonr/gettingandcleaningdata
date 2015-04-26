@@ -22,214 +22,217 @@
   	- STANDING
   	- LAYING                        
 
-	> The following variables are the arithmedic mean of the time domain signals (prefix 't' to denote 
+The following variables are the average by subject and activity of the time domain signals (prefix 't' to denote 
 time) that were captured at a constant rate of 50 Hz:
 * tBodyAcc-mean()-X
-  mean value taken from the body component of the accelerometer signal in the X axis 
+	
+	mean value taken from the body component of the accelerometer signal in the X axis 
 * tBodyAcc-mean()-Y
-  mean value taken from the body component of the accelerometer signal in the Y axis
+
+	mean value taken from the body component of the accelerometer signal in the Y axis
 * tBodyAcc-mean()-Z
-  mean value taken from the body component of the accelerometer signal in the Z axis
 
-  tBodyAcc-std()-X              standard deviation value taken from the body component of the 
-                                accelerometer signal in the X axis
+	mean value taken from the body component of the accelerometer signal in the Z axis
+* tBodyAcc-std()-X
 
-  tBodyAcc-std()-Y              standard deaviation value taken from the body component of the 
-                                accelerometer signal in the Y axis
+	standard deviation value taken from the body component of the accelerometer signal in the X axis
+* tBodyAcc-std()-Y
 
-  tBodyAcc-std()-Z              standard deviation value taken from the body component of the 
-                                accelerometer signal in the Z axis
+	standard deaviation value taken from the body component of the accelerometer signal in the Y axis
+* tBodyAcc-std()-Z
 
-  tGravityAcc-mean()-X          mean value taken from the gravitational component of the 
-                                accelerometer signal in the X axis
+	standard deviation value taken from the body component of the accelerometer signal in the Z axis
+* tGravityAcc-mean()-X
 
-  tGravityAcc-mean()-Y          mean value taken from the gravitational component of the 
-                                accelerometer signal in the Y axis
+	mean value taken from the gravitational component of the accelerometer signal in the X axis
+* tGravityAcc-mean()-Y
 
-  tGravityAcc-mean()-Z          mean value taken from the gravitational component of the 
-                                accelerometer signal in the Z axis  
+	mean value taken from the gravitational component of the accelerometer signal in the Y axis
+* tGravityAcc-mean()-Z
 
-  tGravityAcc-std()-X           standard deviation value taken from the gravitational component 
-                                of the accelerometer signal in the X axis
+	mean value taken from the gravitational component of the accelerometer signal in the Z axis  
+* tGravityAcc-std()-X
 
-  tGravityAcc-std()-Y           standard deviation value taken from the gravitational component 
-                                of the accelerometer signal in the Y axis
+	standard deviation value taken from the gravitational component of the accelerometer signal in the X axis
+* tGravityAcc-std()-Y
 
-  tGravityAcc-std()-Z           standard deviation value taken from the gravitational component 
-                                of the accelerometer signal in the Z axis
+	standard deviation value taken from the gravitational component of the accelerometer signal in the Y axis
+* tGravityAcc-std()-Z
 
-  tBodyAccJerk-mean()-X         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the X axis 
+	standard deviation value taken from the gravitational component of the accelerometer signal in the Z axis
+* tBodyAccJerk-mean()-X
 
-  tBodyAccJerk-mean()-Y         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the Y axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the X axis 
+* tBodyAccJerk-mean()-Y
 
-  tBodyAccJerk-mean()-Z         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the Z axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the Y axis
+* tBodyAccJerk-mean()-Z
 
-  tBodyAccJerk-std()-X          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the X axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the Z axis
+* tBodyAccJerk-std()-X
 
-  tBodyAccJerk-std()-Y          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the Y axis
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the X axis
+* tBodyAccJerk-std()-Y
 
-  tBodyAccJerk-std()-Z          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the Z axis                                
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the Y axis
+* tBodyAccJerk-std()-Z
 
-  tBodyGyro-mean()-X            mean value taken from the body component of the gyroscope 
-                                signal in the X axis
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the Z axis                                
+* tBodyGyro-mean()-X
 
-  tBodyGyro-mean()-Y            mean value taken from the body component of the gyroscope 
-                                signal in the Y axis
+	mean value taken from the body component of the gyroscope signal in the X axis
+* tBodyGyro-mean()-Y
 
-  tBodyGyro-mean()-Z            mean value taken from the body component of the gyroscope 
-                                signal in the Z axis
+	mean value taken from the body component of the gyroscope signal in the Y axis
+* tBodyGyro-mean()-Z
 
-  tBodyGyro-std()-X             standard deviation value taken from the body component of the 
-                                gyroscope signal in the X axis
+	mean value taken from the body component of the gyroscope signal in the Z axis
+* tBodyGyro-std()-X
 
-  tBodyGyro-std()-Y             standard deviation value taken from the body component of the 
-                                gyroscope signal in the Y axis               
+	standard deviation value taken from the body component of the gyroscope signal in the X axis
+* tBodyGyro-std()-Y
 
-  tBodyGyro-std()-Z             standard deviation value taken from the body component of the 
-                                gyroscope signal in the Z axis
+	standard deviation value taken from the body component of the gyroscope signal in the Y axis               
+* tBodyGyro-std()-Z
 
-  tBodyGyroJerk-mean()-X        mean value of the body angular velocity derived in time to 
-                                obtain Jerk signals in the X axis
+	standard deviation value taken from the body component of the gyroscope signal in the Z axis
+* tBodyGyroJerk-mean()-X
 
-  tBodyGyroJerk-mean()-Y        mean value of the body angular velocity derived in time to 
-                                obtain Jerk signals in the Y axis
+	mean value of the body angular velocity derived in time to obtain Jerk signals in the X axis
+* tBodyGyroJerk-mean()-Y
 
-  tBodyGyroJerk-mean()-Z        mean value of the body angular velocity derived in time to 
-                                obtain Jerk signals in the Z axis
+        mean value of the body angular velocity derived in time to obtain Jerk signals in the Y axis
+* tBodyGyroJerk-mean()-Z
 
-  tBodyGyroJerk-std()-X         standard deviation value of the body angular velocity derived in 
-                                time to obtain Jerk signals in the X axis           
+	mean value of the body angular velocity derived in time to obtain Jerk signals in the Z axis
+* tBodyGyroJerk-std()-X
 
-  tBodyGyroJerk-std()-Y         standard deviation value of the body angular velocity derived in 
-                                time to obtain Jerk signals in the Y axis
+	standard deviation value of the body angular velocity derived in time to obtain Jerk signals in the X axis           
+* tBodyGyroJerk-std()-Y
 
-  tBodyGyroJerk-std()-Z         standard deviation value of the body angular velocity derived in 
-                                time to obtain Jerk signals in the Z axis
+	standard deviation value of the body angular velocity derived in time to obtain Jerk signals in the Y axis
+* tBodyGyroJerk-std()-Z
 
-  tBodyAccMag-mean()            mean value of the magnitude of 3-axial signals from the body 
-                                component of the accelerometer
+	standard deviation value of the body angular velocity derived in time to obtain Jerk signals in the Z axis
+* tBodyAccMag-mean()
 
-  tBodyAccMag-std()             standard deviation value of the magnitude of 3-axial signals from 
-                                the body component of the accelerometer
+	mean value of the magnitude of 3-axial signals from the body component of the accelerometer
+* tBodyAccMag-std()
 
-  tGravityAccMag-mean()         mean value of the magnitude of 3-axial signals from the 
-                                gravitational component of the accelerometer
+	standard deviation value of the magnitude of 3-axial signals from the body component of the accelerometer
+* tGravityAccMag-mean()
 
-  tGravityAccMag-std()          standard deviation value of the magnitude of 3-axiaal signals from 
-                                the gravitational component of the accelerometer
+	mean value of the magnitude of 3-axial signals from the gravitational component of the accelerometer
+* tGravityAccMag-std()
 
-  tBodyAccJerkMag-mean()        mean value of the magnitude of 3-axial signals for the body linear 
-                                acceleration derived in time to obtain Jerk signals
+	standard deviation value of the magnitude of 3-axiaal signals from the gravitational component of the accelerometer
+* tBodyAccJerkMag-mean()
 
-  tBodyAccJerkMag-std()         standard deviation value of the magnitude of 3-axial signals for 
-                                the body linear acceleration derived in time to obtain Jerk signals
+	mean value of the magnitude of 3-axial signals for the body linear acceleration derived in time to obtain Jerk signals
+* tBodyAccJerkMag-std()
 
-  tBodyGyroMag-mean()           mean value of the magnitude of 3-axial signals from the body 
-                                component of the gyroscope
+	standard deviation value of the magnitude of 3-axial signals for the body linear acceleration derived in time to obtain Jerk signals
+* tBodyGyroMag-mean()
 
-  tBodyGyroMag-std()            standard deviation value of the magnitude of 3-axial signals from 
-                                the body component of the gyroscope
+	mean value of the magnitude of 3-axial signals from the body component of the gyroscope
+* tBodyGyroMag-std()
 
-  tBodyGyroJerkMag-mean()       mean value of the magnitude of 3-axial signals for the body 
-                                angular velocity derived in time to obtain Jerk signals
+	standard deviation value of the magnitude of 3-axial signals from the body component of the gyroscope
+* tBodyGyroJerkMag-mean()
 
-  tBodyGyroJerkMag-std()        standard deviation value of the magnitude of 3-axial signals for 
-                                the body angular velocity derived in time to obtain Jerk signals
+	mean value of the magnitude of 3-axial signals for the body angular velocity derived in time to obtain Jerk signals
+* tBodyGyroJerkMag-std()
 
+	standard deviation value of the magnitude of 3-axial signals for the body angular velocity derived in time to obtain Jerk signals
 
-The following variables are the arithmedic mean of the frequency domain signals (prefix 'f' to 
+The following variables are the average by subject and activity of the frequency domain signals (prefix 'f' to 
 denote time) that were captured at a constant rate of 50 Hz:
 
-  fBodyAcc-mean()-X             mean value taken from the body component of the accelerometer 
-                                signal in the X axis
+* fBodyAcc-mean()-X
 
-  fBodyAcc-mean()-Y             mean value taken from the body component of the accelerometer 
-                                signal in the Y axis
+	mean value taken from the body component of the accelerometer signal in the X axis
+* fBodyAcc-mean()-Y
 
-  fBodyAcc-mean()-Z             mean value taken from the body component of the accelerometer 
-                                signal in the Z axis
+	mean value taken from the body component of the accelerometer signal in the Y axis
+* fBodyAcc-mean()-Z
 
-  fBodyAcc-std()-X              standard deviation value taken from the body component of the 
-                                accelerometer signal in the X axis
+	mean value taken from the body component of the accelerometer signal in the Z axis
+* fBodyAcc-std()-X
 
-  fBodyAcc-std()-Y              standard deviation value taken from the body component of the 
-                                accelerometer signal in the Y axis
+	standard deviation value taken from the body component of the accelerometer signal in the X axis
+* fBodyAcc-std()-Y
 
-  fBodyAcc-std()-Z              standard deviation value taken from the body component of the 
-                                accelerometer signal in the Z axis
+	standard deviation value taken from the body component of the accelerometer signal in the Y axis
+* fBodyAcc-std()-Z
 
-  fBodyAccJerk-mean()-X         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the X axis
+	standard deviation value taken from the body component of the accelerometer signal in the Z axis
+* fBodyAccJerk-mean()-X
 
-  fBodyAccJerk-mean()-Y         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the Y axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the X axis
+* fBodyAccJerk-mean()-Y
 
-  fBodyAccJerk-mean()-Z         mean value of the body linear acceleration derived in time to 
-                                obtain Jerk signals in the Z axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the Y axis
+* fBodyAccJerk-mean()-Z
 
-  fBodyAccJerk-std()-X          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the X axis
+	mean value of the body linear acceleration derived in time to obtain Jerk signals in the Z axis
+* fBodyAccJerk-std()-X
 
-  fBodyAccJerk-std()-Y          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the Y axis
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the X axis
+* fBodyAccJerk-std()-Y
 
-  fBodyAccJerk-std()-Z          standard deviation value of the body linear acceleration derived 
-                                in time to obtain Jerk signals in the Z axis
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the Y axis
+* fBodyAccJerk-std()-Z
 
-  fBodyGyro-mean()-X            mean value taken from the body component of the gyroscope 
-                                signal in the X axis
+	standard deviation value of the body linear acceleration derived in time to obtain Jerk signals in the Z axis
+* fBodyGyro-mean()-X
 
-  fBodyGyro-mean()-Y            mean value taken from the body component of the gyroscope 
-                                signal in the Y axis
+	mean value taken from the body component of the gyroscope signal in the X axis
+* fBodyGyro-mean()-Y
 
-  fBodyGyro-mean()-Z            mean value taken from the body component of the gyroscope 
-                                signal in the Z axis
+	mean value taken from the body component of the gyroscope signal in the Y axis
+* fBodyGyro-mean()-Z
 
-  fBodyGyro-std()-X             standard deviation value taken from the body component of the 
-                                gyroscope signal in the X axis
+	mean value taken from the body component of the gyroscope signal in the Z axis
+* fBodyGyro-std()-X
 
-  fBodyGyro-std()-Y             standard deviation value taken from the body component of the 
-                                gyroscope signal in the Y axis
+	standard deviation value taken from the body component of the gyroscope signal in the X axis
+* fBodyGyro-std()-Y
 
-  fBodyGyro-std()-Z             standard deviation value taken from the body component of the 
-                                gyroscope signal in the Z axis
+	standard deviation value taken from the body component of the gyroscope signal in the Y axis
+* fBodyGyro-std()-Z
 
-  fBodyAccMag-mean()            mean value of the magnitude of 3-axial signals from the body 
-                                component of the accelerometer
+	standard deviation value taken from the body component of the gyroscope signal in the Z axis
+* fBodyAccMag-mean()
 
-  fBodyAccMag-std()             standard deviation value of the magnitude of 3-axial signals from 
-                                the body component of the accelerometer
+	mean value of the magnitude of 3-axial signals from the body component of the accelerometer
+* fBodyAccMag-std()
 
-  fBodyBodyAccJerkMag-mean()    mean value of the magnitude of 3-axial signals for the body linear 
-                                acceleration derived in time to obtain Jerk signals
+	standard deviation value of the magnitude of 3-axial signals from the body component of the accelerometer
+* fBodyBodyAccJerkMag-mean()
 
-  fBodyBodyAccJerkMag-std()     standard deviation value of the magnitude of 3-axial signals for 
-                                the body linear acceleration derived in time to obtain Jerk signals
+	mean value of the magnitude of 3-axial signals for the body linear acceleration derived in time to obtain Jerk signals
+* fBodyBodyAccJerkMag-std()
 
-  fBodyBodyGyroMag-mean()       mean value of the magnitude of 3-axial signals from the body 
-                                component of the gyroscope
+	standard deviation value of the magnitude of 3-axial signals for the body linear acceleration derived in time to obtain Jerk signals
+* fBodyBodyGyroMag-mean()
 
-  fBodyBodyGyroMag-std()        standard deviation value of the magnitude of 3-axial signals from 
-                                the body component of the gyroscope
+	mean value of the magnitude of 3-axial signals from the body component of the gyroscope
+* fBodyBodyGyroMag-std()
 
-  fBodyBodyGyroJerkMag-mean()   mean value of the magnitude of 3-axial signals for the body 
-                                angular velocity derived in time to obtain Jerk signals
+	standard deviation value of the magnitude of 3-axial signals from the body component of the gyroscope
+* fBodyBodyGyroJerkMag-mean()
 
-  fBodyBodyGyroJerkMag-std()    standard deviation value of the magnitude of 3-axial signals for 
-                                the body angular velocity derived in time to obtain Jerk signals
+	mean value of the magnitude of 3-axial signals for the body angular velocity derived in time to obtain Jerk signals
+* fBodyBodyGyroJerkMag-std()
 
+	standard deviation value of the magnitude of 3-axial signals for the body angular velocity derived in time to obtain Jerk signals
 
 ## General notes on variables: 
-- Features are normalized and bounded within [-1,1].
-- The units used for the accelerations (total and body) are 'g's 
-  (gravity of earth -> 9.80665 m/seg2).
-- The gyroscope units are rad/seg.
+* Features are normalized and bounded within [-1,1].
+* The units used for the accelerations (total and body) are 'g's 
+
+	(gravity of earth -> 9.80665 m/seg2).
+* The gyroscope units are rad/seg.
 
 ## The information in this dataset comes from a reduction made from a dataset that could be obtained in: 
 
