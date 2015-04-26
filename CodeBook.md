@@ -9,10 +9,8 @@
 
 ## The 68 variables included in the resulting dataset are:
  
-* subject
-	This is a code number from 1 to 30 identifying the subject that performed the test
-* activity
-	This is a self-descriptive variable that describes the activity performed by the subject:
+* subject > > This is a code number from 1 to 30 identifying the subject that performed the test
+* activity > > This is a self-descriptive variable that describes the activity performed by the subject:
   	- WALKING
   	- WALKING_UPSTAIRS
   	- WALKING_DOWNSTAIRS
@@ -20,7 +18,7 @@
   	- STANDING
   	- LAYING                        
 
-### The following variables are the arithmedic mean of the time domain signals (prefix 't' to denote 
+	> The following variables are the arithmedic mean of the time domain signals (prefix 't' to denote 
 time) that were captured at a constant rate of 50 Hz:
 * tBodyAcc-mean()-X
   mean value taken from the body component of the accelerometer signal in the X axis 
