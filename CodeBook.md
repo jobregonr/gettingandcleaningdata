@@ -9,8 +9,12 @@
 
 ## The 68 variables included in the resulting dataset are:
  
-* subject > > This is a code number from 1 to 30 identifying the subject that performed the test
-* activity > > This is a self-descriptive variable that describes the activity performed by the subject:
+* subject 
+
+	This is a code number from 1 to 30 identifying the subject that performed the test
+* activity
+
+	This is a self-descriptive variable that describes the activity performed by the subject:
   	- WALKING
   	- WALKING_UPSTAIRS
   	- WALKING_DOWNSTAIRS
