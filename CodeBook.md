@@ -1,15 +1,3 @@
-# The information in this dataset comes from a reduction made from a dataset that could be obtained in: 
-
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-## The source dataset was made public by:
-
-  Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
-
-## And a description on the contents of the source file could be found at:
-
-  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
 ## The transformations made in the source dataset were as follows:
 
 1. Merges the training and the test sets to create one data set.
@@ -22,15 +10,15 @@
 ## The 68 variables included in the resulting dataset are:
  
 * subject
-  This is a code number from 1 to 30 identifying the subject that performed the test
+	This is a code number from 1 to 30 identifying the subject that performed the test
 * activity
-  This is a self-descriptive variable that describes the activity performed by the subject:
-  - WALKING
-  - WALKING_UPSTAIRS
-  - WALKING_DOWNSTAIRS
-  - SITTING
-  - STANDING
-  - LAYING                        
+	This is a self-descriptive variable that describes the activity performed by the subject:
+  	- WALKING
+  	- WALKING_UPSTAIRS
+  	- WALKING_DOWNSTAIRS
+  	- SITTING
+  	- STANDING
+  	- LAYING                        
 
 ### The following variables are the arithmedic mean of the time domain signals (prefix 't' to denote 
 time) that were captured at a constant rate of 50 Hz:
@@ -235,12 +223,21 @@ denote time) that were captured at a constant rate of 50 Hz:
                                 the body angular velocity derived in time to obtain Jerk signals
 
 
-Notes: 
-======
-
+## General notes on variables: 
 - Features are normalized and bounded within [-1,1].
-
 - The units used for the accelerations (total and body) are 'g's 
   (gravity of earth -> 9.80665 m/seg2).
-
 - The gyroscope units are rad/seg.
+
+## The information in this dataset comes from a reduction made from a dataset that could be obtained in: 
+
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## The source dataset was made public by:
+
+  Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
+
+## And a description on the contents of the source file could be found at:
+
+  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
