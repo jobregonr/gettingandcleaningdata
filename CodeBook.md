@@ -101,7 +101,7 @@ time) that were captured at a constant rate of 50 Hz:
 	mean value of the body angular velocity derived in time to obtain Jerk signals in the X axis
 * tBodyGyroJerk-mean()-Y
 
-        mean value of the body angular velocity derived in time to obtain Jerk signals in the Y axis
+	mean value of the body angular velocity derived in time to obtain Jerk signals in the Y axis
 * tBodyGyroJerk-mean()-Z
 
 	mean value of the body angular velocity derived in time to obtain Jerk signals in the Z axis

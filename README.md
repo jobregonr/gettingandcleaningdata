@@ -1,10 +1,6 @@
 ===================================================================================================
-Averages by subject and activity of Human Activity Recognition Using Smartphones Tidy Dataset
-for Getting and Cleaning Data Coursera Course Project 
- 
-
-The files included in this repo are: 
-====================================
+# Files included in this repo 
+===================================================================================================
 
 - 'README.md': This file
 
@@ -13,15 +9,14 @@ The files included in this repo are:
 - 'CodeBook.md': The description of the variables in the tidy dataset; avg_data.txt
 
 - 'avg_data.txt': The tidy dataset
-
-
-R script run_analysis.R
-=======================
-This script takes as source the datasets that colllected signals from accelerometer and
+===================================================================================================
+# run_analysis R script
+===================================================================================================
+This script takes as source the datasets that collected signals from accelerometer and
 gyroscopes from the Samsung Galaxy S smartphone. A full description and the datasets are
 avalivable  at the following site:
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The script generates the tidy dataset following the next steps:
 1. Merges the training and the test sets to create one data set.
@@ -31,9 +26,9 @@ The script generates the tidy dataset following the next steps:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of 
    each variable for each activity and each subject.
 
-
+===================================================================================================
 License:
-========
+===================================================================================================
 The datasets and publications taken as sources are under license by:
 
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
+	Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
